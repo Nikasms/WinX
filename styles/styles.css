@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+/* main content styles */
+.maincontent {
+    background-color:#FFFFFF ;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0,1); 
+   padding: 105px 90px;
+}
+/* about */
+.about {
+
+}
+.aboutposition {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00000000;
+}
+}
+    
+.aboutname {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #00000000;
+}
+.aboutdescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+/* main styles */
+.Main {
+display: flex;
+flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+}
+/* sidebar styles/ */
+.sidebar {
+background-color: #1F2936;
+padding-top: 40px;
+width: 370px;
+}
+.photo {
+  width:370px ;  
+  margin-bottom: 50px;
+}
+.sidebartitle {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.contacts, .techskills, .softskills {
+    margin-left: 40px;
+}
+.contacts {
+    margin: bottom 50px; ;
+}
+.contacttype {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+
+}
+.contactlink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+
+}
+.techskills {
+    margin-bottom: 45px;
+}
+.techlist, .softlist{
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 15px;
+}
+.techitem, .softitem{
+  color: #fb6d3a ;  
+}
+.techtext, .softtext {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
