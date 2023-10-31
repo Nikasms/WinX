@@ -17,16 +17,16 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #00000000;
+    color: #000000;
 }
-}
+
     
 .aboutname {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    color: #00000000;
+    color: #000000;
 }
 .aboutdescription {
     font-style: normal;
@@ -46,7 +46,8 @@ margin: 0 auto;
 }
 /* sidebar styles/ */
 .sidebar {
-background-color: #1F2936;
+background-color: #2f71c7;
+background: ;
 padding-top: 40px;
 width: 370px;
 }
