@@ -4,7 +4,8 @@ body {
 }
 /* main content styles */
 .maincontent {
-    background-color:#FFFFFF ;
+    background-color:#f7c5f4 ;
+    opacity: 0.8;
    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0,1); 
    padding: 105px 90px;
 }
