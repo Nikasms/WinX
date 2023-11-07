@@ -2,6 +2,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;
 }
+
+a {
+    text-decoration:none;
+    font-weight: bold;
+    color: #000000;
+}
 /* main content styles */
 .maincontent {
    background-color: #FFFFFF;
@@ -97,6 +103,7 @@ width: 370px;
 }
 .techitem, .softitem{
   color: #fb6d3a ;  
+  
 }
 .techtext, .softtext {
     color: #FFFFFF;
