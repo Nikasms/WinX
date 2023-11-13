@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-<!--Main-->
+<!--Головне-->
 <div class="Main">
-    <!--Main content-->
- <div class="maincontent"> <!--about user-->
+    <!--Головний контент-->
+ <div class="maincontent"> <!--про планети-->
     <div class="about">
         
        <h2 class="aboutposition"> Ласково просимо на сайт.</h2> 
@@ -25,7 +25,7 @@
  
 </div>
 
-     <!--PROJECTS-->
+     <!--ПЛАНЕТИ-->
         <div class="projects">
            <h3 class="title"> Планети
 
@@ -52,10 +52,10 @@
            </ol>
  
         </div>
-        <!--Work-->
+        <!--Інформація-->
         <div>
             <h3>Коротка інформація </h3>
-            <!--Company1-->
+            <!--Склад-->
             <div>
               <h4>Склад</h4>  
               <p>Планети земної групи мають високу густину та тверду поверхню і складаються переважно з таких елементів:</p>
@@ -67,7 +67,7 @@
             
             </ul>
             </div>
-            <!--Company2-->
+            <!--Будова-->
             <div>
                 <h4>Будова</h4>  
                 <p>Всі планети земної групи мають наступну будову:</p>
@@ -75,22 +75,28 @@
                  
                  <li>У центрі - ядро ​​із заліза з домішкою нікелю.</li>
                  <li>Мантія, що складається з силікатів.</li>
-                 <li>Кора, що утворилася в результаті часткового плавлення мантії і складається також із силікатних порід, </li>
+                 <li>Кора, що утворилася в результаті часткового плавлення мантії і складається також із силікатних порід. </li>
             </div>
-            <!--Company3-->
+            <!--Символізація-->
             <div>
                 <h3>Символізація планет в буденному житті:</h3>
 
             
                 <ul>
-                  <li> Марс - ктивність, динамізм.</li>
+                  <li> Марс - активність, динамізм.</li>
                   <li>Земля - багатство.</li>
-                  <li>Венера - очуття, естетика.</li>
+                  <li>Венера - почуття, естетика.</li>
                   <li>Меркурій- розум, контакти.</li>
                   
               
               </ul>
             </div>
+            <!-- Галерея -->
+            <center>
+                <img src = "gallery/1.jpg" width = "580" height = "580"  id = "img" > </img> <br />
+                <img src = "gallery/left_arrow.png"  width = "90" height = "90" onClick = "javascript: left_arrow()" /> 
+            <img src = "gallery/right_arrow.png" width = "90" height = "90" onClick = "javascript: right_arrow()" />
+               </center>
         </div>
             
     
@@ -98,7 +104,7 @@
     </div >
     <!--Sidebar-->
     <aside class="sidebar">
-        <img src="img/solar-system (1).jpg"user photo" class="photo">
+        <img src="img/solar-system (1).jpg" class="photo">
         
       
         <!--Tech Skills-->
@@ -123,11 +129,4 @@
 </html>
 
 
-<script src = "gal.js"></script>
-<body>
-	<center>
-        <img src = "" width = "640" height = "480"  id = "img" > </img> <br />
-        <img src = "Венеракопія.jpg"   onClick = "javascript: left_arrow()" /> 
-	<img src = "right_arrow.jpg"  onClick = "javascript: right_arrow()" />
-       </center>
-    </body>
+<script src = "gallery/gal.js"></script>
