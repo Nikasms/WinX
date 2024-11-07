@@ -1,12 +1,14 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #E5E5E5;
+     font-family: 'Brush Script MT', cursive; 
+    /* font-family: "Sofia", sans-serif; */
+    
+    background-color: #f5e8e8;
 }
 
 a {
     text-decoration:none;
     font-weight: bold;
-    color: #000000;
+    color: #e43232;
 }
 /* main content styles */
 .maincontent {
@@ -53,9 +55,9 @@ margin: 0 auto;
 }
 /* sidebar styles/ */
 .sidebar {
-background-color: #2f71c7;
+background-color: #e977b5;
 background: ;
-padding-top: 40px;
+padding-top: 70;
 width: 370px;
 }
 .photo {
