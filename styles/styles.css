@@ -8,7 +8,7 @@ body {
 a {
     text-decoration:none;
     font-weight: bold;
-    color: #e43232;
+    color: #d6adad;
 }
 /* main content styles */
 .maincontent {
@@ -18,9 +18,9 @@ a {
    padding: 105px 90px;
 }
 /* about */
-.about {
+/* .about {
 
-}
+} */
 .aboutposition {
     font-style: normal;
     font-weight: bold;
@@ -69,9 +69,9 @@ a {
 .aboutdescription {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
-    color: #595959;
+    color: #c04fd6;
 }
 
 
@@ -85,20 +85,61 @@ margin: 0 auto;
 /* sidebar styles/ */
 .sidebar {
 background-color: #e977b5;
-background: ;
+
 padding-top: 40px;
 width: 370px;
 }
+
+.sidebar_flora {
+    background-color: #d0f57b;
+   
+    padding-top: 40px;
+    width: 370px;
+    }
+    .sidebar_bloom {
+        background-color: #ee6464;
+      
+        padding-top: 40px;
+        width: 370px;
+        }
+
+        .sidebar_techa {
+            background-color: #e67ce0;
+            
+            padding-top: 40px;
+            width: 370px;
+            }
+
+            .sidebar_stella {
+                background-color: #e6c47c;
+               
+                padding-top: 40px;
+                width: 370px;
+                }
+                .sidebar_aisha {
+                    background-color: #7ce6e1;
+
+                    padding-top: 40px;
+                    width: 370px;
+                    }
+        
+
+
+
+
+
+
 .photo {
-  width:350px ;  
-  margin-bottom: 50px;
-  height: 580px;
+  width:340px ;  
+  margin-bottom: 60px;
+  height: 590px;
 }
+
 .sidebartitle {
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 40px;
     line-height: 27px;
     margin-bottom: 10px;
 }
@@ -129,18 +170,18 @@ width: 370px;
     margin-bottom: 45px;
 }
 .techlist, .softlist{
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 0;
     margin-left: 15px;
 }
 .techitem, .softitem{
-  color: #fb6d3a ;  
+  color: #4e2e2e ;  
   
 }
 .techtext, .softtext {
-    color: #FFFFFF;
+    color: #ffffff;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
 }
