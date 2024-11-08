@@ -24,18 +24,47 @@ a {
 .aboutposition {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 17px;
     color: #000000;
+}
+.first {
+    color: #c04fd6;
+    font-size: 60px;
+    font-style: normal;
+
+}
+.sign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutsign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 0px;
+    top: 20px;
+
+
 }
 
     
 .aboutname {
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 70px;
     line-height: 55px;
     color: #000000;
+
+    right: 100px;
+    top: 20px;
+
 }
 .aboutdescription {
     font-style: normal;
@@ -61,8 +90,9 @@ padding-top: 40px;
 width: 370px;
 }
 .photo {
-  width:370px ;  
+  width:350px ;  
   margin-bottom: 50px;
+  height: 580px;
 }
 .sidebartitle {
     color: #FFFFFF;
