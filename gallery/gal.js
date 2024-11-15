@@ -1,6 +1,6 @@
 
 
-var mas = ["1.webp","2.jpg","3.","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg"]
+var mas = ["1.jpeg","3.webp","5.jpeg","6.jpeg","7.jpeg","8.webp","9.jpeg"]
 var to = -1;
 
 function right_arrow()
