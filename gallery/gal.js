@@ -1,9 +1,9 @@
-// var mas = ["Венеракопія.jpg","Землякопіячjpg","Марскопія.jpg","Меркурійкопія.jpg"] // массив картинок
 
-var mas = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg"] // массив картинок
-var to = -1;  // Счетчик, указывающий на текущую картинки
 
-function right_arrow() // Открытие следующей картинки(движение вправо)
+var mas = ["1.webp","2.jpg","3.","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg"]
+var to = -1;
+
+function right_arrow()
 { 
  var obj = document.getElementById("img");
   if (to < mas.length-1)  to++ 
@@ -12,7 +12,7 @@ function right_arrow() // Открытие следующей картинки(�
      obj.src ="gallery/" + mas[to];	 
 }
 
-function left_arrow() // Открытие предыдущей картинки(движение влево)
+function left_arrow()
 {     
  var obj = document.getElementById("img");
 if (to > 0) to--;
