@@ -8,7 +8,7 @@ body {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #d6adad;
+  color: #000000;
 }
 /* main content styles */
 .maincontent {
@@ -29,7 +29,8 @@ a {
   color: #000000;
 }
 .first {
-  color: #c04fd6;
+  /* color: #ee6464; */
+  
   font-size: 60px;
   font-style: normal;
 }
@@ -61,12 +62,35 @@ a {
   right: 100px;
   top: 20px;
 }
+.aboutdescription_bloom{
+  color: #ee6464;
+
+}
+.aboutdescription_stella{
+  color: #e6c47c;
+  
+}
+.aboutdescription_flora{
+  color: #d0f57b;
+  
+}
+.aboutdescription_musa{
+  color: #e977b5;
+  
+}
+.aboutdescription_techa{
+  color: #e67ce0;
+  
+}.aboutdescription_aisha{
+  color: #7ce6e1;
+  
+}
 .aboutdescription {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #c04fd6;
+
 }
 
 /* main styles */
@@ -81,12 +105,12 @@ a {
   background-color: #e977b5;
 
   padding-top: 40px;
-  width: 370px;
+  width: 350px;
 }
 
 .sidebar-all{
     padding-top: 40px;
-    width: 380px;
+    width: 360px;
 }
 
 .sidebar_flora {
@@ -115,12 +139,18 @@ a {
   background-color: #7ce6e1;
 
 }
+.sidebar_musa{
+  background-color: #e977b5;
+
+}
+
 
 .photo {
   width: 340px;
   margin-bottom: 60px;
   height: 590px;
 }
+
 
 .sidebartitle {
   color: #ffffff;
